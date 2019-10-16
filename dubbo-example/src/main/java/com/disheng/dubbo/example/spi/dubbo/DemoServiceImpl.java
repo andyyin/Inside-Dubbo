@@ -1,4 +1,4 @@
-package com.disheng.dubbo.example.spi;
+package com.disheng.dubbo.example.spi.dubbo;
 
 /**
  * Created by qi.yin at 2019-10-15.
@@ -6,6 +6,6 @@ package com.disheng.dubbo.example.spi;
 public class DemoServiceImpl implements DemoService {
 
     public String invoke(String value) {
-        return "Hello SPI " + value;
+        return "Hello Dubbo SPI " + value;
     }
 }

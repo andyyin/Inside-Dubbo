@@ -1,6 +1,6 @@
-package com.disheng.dubbo.example.spi;
+package com.disheng.dubbo.example.spi.jdk;
 
-import com.sun.tools.javac.util.ServiceLoader;
+import java.util.ServiceLoader;
 import java.util.function.Consumer;
 
 /**
